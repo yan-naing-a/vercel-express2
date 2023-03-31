@@ -19,7 +19,7 @@ const html = `
 
 <body>
     <script type="text/javascript">
-        localStorage.setItem('apiUrl','${apiUrl}')
+        localStorage.setItem('apiUrl','${apiUrl}/api')
         window.location.href="/"
     </script>
 </body>
